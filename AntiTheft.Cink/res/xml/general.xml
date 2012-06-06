@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/auto_startup_preference_key"
+        android:summary="@string/auto_startup_preference_summary"
+        android:title="@string/auto_startup_preference_title" />
+
+    <EditTextPreference
+        android:key="@string/secure_phone_number_preference_key"
+        android:summary="@string/secure_phone_number_preference_summary"
+        android:title="@string/secure_phone_number_preference_title" />
+    <EditTextPreference
+        android:key="@string/secure_gmail_addr_preference_key"
+        android:summary="@string/secure_gmail_addr_preference_summary"
+        android:title="@string/secure_gmail_addr_preference_title" />
+
+</PreferenceScreen>

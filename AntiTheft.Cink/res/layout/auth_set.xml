@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent.Desktop" >
+
+    <TextView style="@style/WrapContent.Text"/>
+    <LinearLayout
+        style="@style/MatchParent.H"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView style="@style/WrapContent.Text.Small" />
+
+            <TextView
+                android:id="@+id/new_app_password_head"
+                style="@style/WrapContent.Text"
+                android:text="@string/app_password" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/old_app_password_area"
+            style="@style/MatchParent.H"
+            android:layout_gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/authetication_title"
+                style="@style/WrapContent.Text.Small"
+                android:text="@string/set_app_password_title" />
+
+            <EditText
+                android:id="@+id/new_app_password"
+                style="@style/Stretch.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                style="@style/WrapContent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/ok_button"
+                    style="@style/WrapContent.Button"
+                    android:layout_width="match_parent"
+                    android:text="@android:string/ok" />
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    style="@style/WrapContent.Button"
+                    android:text="@android:string/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

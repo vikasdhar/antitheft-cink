@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="desktop_bg">#BB9966</color>
+	
+	<color name="button_fg">@color/desktop_bg</color>
+	<color name="button_bg_normal">#997755</color>
+	<color name="button_bg_focused">#AA997755</color>
+	<color name="button_bg_pressed">#55997755</color>
+    
+	<color name="text_fg">@color/button_bg_normal</color>
+	<color name="text_fg_warning">#AA0000</color>
+	<color name="text_bg">@color/desktop_bg</color>
+	<color name="text_bg_with_bg">#B59463</color>
+	
+	<color name="edit_text_bg">#AA8860</color>
+	
+</resources>

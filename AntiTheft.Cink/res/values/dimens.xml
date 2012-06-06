@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_h_padding">12dp</dimen>
+    <dimen name="button_v_padding">4dp</dimen>
+    <dimen name="button_text_small">18dp</dimen>
+    <dimen name="button_text_normal">36dp</dimen>
+    <dimen name="button_text_large">72dp</dimen>
+    <dimen name="button_text_xlarge">96dp</dimen>
+
+    <dimen name="text_margin">@dimen/button_margin</dimen>
+    <dimen name="text_h_padding">@dimen/button_h_padding</dimen>
+    <dimen name="text_v_padding">@dimen/button_v_padding</dimen>
+    <dimen name="text_small">@dimen/button_text_small</dimen>
+    <dimen name="text_normal">@dimen/button_text_normal</dimen>
+    <dimen name="text_large">@dimen/button_text_large</dimen>
+    <dimen name="text_xlarge">@dimen/button_text_xlarge</dimen>
+    
+    <dimen name="edit_text_margin">@dimen/text_margin</dimen>
+    <dimen name="edit_text_normal">@dimen/text_normal</dimen>
+    <dimen name="edit_text_h_padding">@dimen/text_h_padding</dimen>
+    <dimen name="edit_text_v_padding">@dimen/text_v_padding</dimen>
+    
+</resources>

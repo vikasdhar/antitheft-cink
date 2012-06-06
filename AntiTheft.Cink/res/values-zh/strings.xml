@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">防盗器.墨</string>
+	<string name="about">本应用由点墨开发，以帮助用户保护被盗手机的资料或找回丢失的手机。\n\n
+	    代码托管于 http://code.google.com/p/antitheft-cink\n
+        代码许可证为 GNU GPL v2.</string>
+	
+    <!-- 主界面 -->
+	<string name="auto_mode">自动模式</string>
+	<string name="tele_mode">遥控模式</string>
+	<string name="general_settings">设置</string>
+    <string name="mode">模式</string>
+    <string name="state">状态</string>
+	
+	<!-- 密码验证界面 -->
+	<string name="authentication_name">安全认证</string>
+    <string name="set_app_password_title">设置密码</string>
+    <string name="reset_app_password_title">重置密码</string>
+    <string name="verify_app_password_title">密码验证</string>
+    <string name="old_app_password">旧密码</string>
+    <string name="new_app_password">新密码</string>
+    <string name="app_password">密码</string>
+    <string name="wrong_pwd">密码错误！请重新输入。</string>
+	
+	<!-- 常用设置 -->
+	<string name="general_settings_name">常用设置</string>
+	<string name="auto_startup_preference_title">开机启动</string>
+	<string name="auto_startup_preference_summary">开机自动启动服务</string>
+	
+	<!-- ＊ 安全手机号码 -->
+	<string name="secure_phone_number_preference_title">安全手机号码</string>
+    <string name="secure_phone_number_preference_summary">短信控制，短信通知等</string>
+	<string name="no_secure_phone_number_set">请先设置安全手机号码！</string>
+    
+    <!-- ＊ 安全邮箱 -->
+    <string name="secure_gmail_addr_preference_title">安全邮箱地址</string>
+    <string name="secure_gmail_addr_preference_summary">获取照片，获取地理位置等</string>
+    <string name="no_secure_gmail_addr_set">请先设置安全邮箱！</string>
+
+	<!-- 自动模式 -->
+    <string name="auto_mode_name">自动模式设置</string>
+
+	<!-- ＊ 监测机制 -->
+    <string name="inspectors_category_title">监测机制</string>
+	<!-- ＊＊ 检测 SIM 卡 -->
+	<string name="check_sim_preference_title">监测 SIM 卡</string>
+	<string name="register_sim_preference_title">注册本 SIM 卡</string>
+	<string name="cat_not_get_sim_info">无法获取 SIM 卡信息。</string>
+	<string name="register_sim_success">SIM 卡注册成功。</string>
+    <string name="register_sim_failed">SIM 卡注册失败！</string>
+	
+	<!-- ＊ 保护机制 -->
+    <string name="protectors_category_title">保护机制</string>
+
+    <!-- ＊＊ 短信通知 -->
+    <string name="sms_notification_title">短信通知</string>
+    <string name="sms_notification_summary">短信通知安全手机号码</string>
+    <string name="sms_notification_content">您手机可能丢失了！请查看。</string>
+		
+	<!-- ＊＊ 清除 SDCard -->
+    <string name="wipe_sdcard_preference_title">清理 SDCard</string>
+    <string name="wipe_sdcard_preference_summary">清除 SDCard 内所有内容</string>
+    
+    <!-- ＊＊ 恢复出厂设置 -->
+    <string name="factory_reset_preference_title">恢复出厂设置</string>
+    <string name="factory_reset_preference_summary">注意：这将会删除所有联系人，短信，用户应用等</string>
+    <string name="device_admin_add_explanation">只有激活此设备管理器才能进行恢复出厂设置。</string>
+    
+	<!-- ＊ 遥控模式 -->	
+	<string name="tele_mode_name">遥控模式设置</string>
+	
+	<!-- ＊＊ 短信控制 -->
+	<string name="sms_control_preference_title">开启短信控制</string>
+
+	<!-- 短信命令 -->
+    <string name="sms_cmd_list">短信命令列表:\n
+        antitheft-wipe-sdcard: 清理 SDCard\n
+        antitheft-factory-reset: 恢复出厂设置\n
+        antitheft-get-location: 获取手机位置\n
+        antitheft-get-picture: 拍照并上传至安全邮箱\n
+        antitheft-list 或任意以 antitheft 开头的信息: 列出此短信命令列表。
+        </string>
+    <string name="sms_cmd_received">短信命令已收到。</string>
+    <string name="its_not_secure_phone_number">本手机并非所设置的安全手机号码。</string>
+    <string name="wipe_sdcard_sms_cmd_success">SD 卡已成功清除。</string>
+    <string name="wipe_sdcard_sms_cmd_failed">SD 卡未成功清除或未完全清除。</string>
+    <string name="get_picture_sms_cmd_no_secure_mail_set">安全邮箱未设置。</string>
+    <string name="picture_mail_subject">来自"防盗器.墨"的照片</string>
+    <string name="picture_mail_body">请查看附件。</string>
+
+    
+    <!-- Log records -->
+    <string name="log_record_success">成功</string>
+    <string name="log_record_failed">失败</string>
+
+    <string name="registering_sim">正在注册本 SIM 卡 .... </string>
+    <string name="registering_sim_none">无法获取 SIM 卡信息</string>
+    
+    <string name="enabled_auto_startup">开机启动已开启</string>
+    <string name="disabled_auto_startup">开机启动已关闭</string>
+    
+    <string name="enabled_auto_mode">自动模式已启动</string>
+    <string name="disabled_auto_mode">自动模式已关闭</string>
+    
+    <string name="enabled_tele_mode">遥控模式已启动</string>
+    <string name="disabled_tele_mode">遥控模式已关闭</string>
+    
+    <string name="enabled_sms_control">短信控制已开启</string>
+    <string name="disabled_sms_control">短信控制已关闭</string>
+
+    <string name="starting_auto_mode">自动模式已开始 ....</string>
+    <string name="stopping_auto_mode">自动模式已停止。</string>
+    
+    
+    <string name="checking_sim">正在检查 SIM 卡 .... </string>
+    <string name="checking_sim_none">无 SIM 卡注册</string>
+    
+    <string name="sending_sms_notification">短信通知已发送。</string>
+    
+    <string name="wiping_sdcard">正在清理 sdcard ....</string>
+    
+    <string name="factory_resetting">即将恢复出厂设置 ....</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ** Basic style ** -->
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchParent.H">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Stretch">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- ** Personal Design ** -->
+
+
+    <!-- Desktop -->
+
+    <style name="MatchParent.Desktop">
+        <item name="android:background">@color/desktop_bg</item>
+    </style>
+
+    <!-- Button -->
+    <style name="WrapContent.Button">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/button_fg</item>
+
+        <item name="android:textSize">@dimen/button_text_normal</item>
+        <item name="android:paddingLeft">@dimen/button_h_padding</item>
+        <item name="android:paddingRight">@dimen/button_h_padding</item>
+        <item name="android:paddingTop">@dimen/button_v_padding</item>
+        <item name="android:paddingBottom">@dimen/button_v_padding</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+    
+    <style name="WrapContent.Button.Large">
+        <item name="android:textSize">@dimen/button_text_large</item>
+    </style>
+
+    <style name="WrapContent.Button.xLarge">
+        <item name="android:textSize">@dimen/button_text_xlarge</item>
+    </style>
+
+    <!-- TextView -->
+    <style name="WrapContent.Text">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_fg</item>
+        <item name="android:paddingLeft">@dimen/text_h_padding</item>
+        <item name="android:paddingRight">@dimen/text_h_padding</item>
+        <item name="android:paddingTop">@dimen/text_v_padding</item>
+        <item name="android:paddingBottom">@dimen/text_v_padding</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+    </style>
+
+    <style name="WrapContent.Text.Padding">
+        <item name="android:background">@color/desktop_bg</item>
+        <item name="android:textColor">@color/desktop_bg</item>
+        <item name="android:enabled">false</item>
+    </style>
+    
+    <style name="WrapContent.Text.Small">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="WrapContent.Text.Small.Warning">
+        <item name="android:textColor">@color/text_fg_warning</item>
+    </style>
+    
+    <style name="WrapContent.Text.Large">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="WrapContent.Text.xLarge">
+        <item name="android:textSize">@dimen/text_xlarge</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="Stretch.EditText">
+        <item name="android:textSize">@dimen/edit_text_normal</item>
+        <item name="android:background">@color/edit_text_bg</item>
+        <item name="android:layout_margin">@dimen/edit_text_margin</item>
+        <item name="android:paddingLeft">@dimen/edit_text_h_padding</item>
+        <item name="android:paddingRight">@dimen/edit_text_h_padding</item>
+        <item name="android:paddingTop">@dimen/edit_text_v_padding</item>
+        <item name="android:paddingBottom">@dimen/edit_text_v_padding</item>
+        </style>
+    
+</resources>

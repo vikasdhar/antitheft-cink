@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AntiTheft.Cink</string>
+    <string name="about">This app is developed by Dot Cink to help users 
+        protecting their phones from theft or losing.\n\n
+        Hosted on http://code.google.com/p/antitheft-cink\n
+        Under GNU GPL v2 License.</string>
+    
+    <!-- Main Activity -->
+    <string name="auto_mode">AUTO</string>
+    <string name="tele_mode">TELE</string>
+    <string name="general_settings">Settings</string>
+    <string name="mode">MODE</string>
+    <string name="state">STATE</string>
+    
+    <!-- Authentication Activity-->
+    <string name="authentication_name">AUTHENTICATION</string>
+    <string name="set_app_password_title">SET PASSWORD</string>
+    <string name="reset_app_password_title">RESET PASSWORD</string>
+    <string name="verify_app_password_title">VERIFICATION</string>
+    <string name="old_app_password">OLD</string>
+    <string name="new_app_password">NEW</string>
+    <string name="app_password">PWD</string>
+    <string name="wrong_pwd">Wrong! Please try again.</string>
+    
+    <!-- Gerneral Preferences -->
+	<string name="general_settings_name">General Settings</string>
+    <string name="auto_startup_preference_key">auto_startup</string>
+    <string name="auto_startup_preference_title">Auto Startup</string>
+    <string name="auto_startup_preference_summary">Start service automatically when boot up</string>
+
+    <!-- * Secure Phone Number -->
+    <string name="secure_phone_number_preference_key">secure_phone_number</string>
+    <string name="secure_phone_number_preference_title">Secure Phone Number</string>
+    <string name="secure_phone_number_preference_summary">SMS control, SMS notification, etc.</string>
+    <string name="no_secure_phone_number_set">Please set Secure Phone Number first!</string>
+    
+    <!-- * Secure Gmail account -->
+    <string name="secure_gmail_addr_preference_key">secure_gmail_addr</string>
+    <string name="secure_gmail_addr_preference_title">Secure Gmail Address</string>
+    <string name="secure_gmail_addr_preference_summary">Get picture, location, etc.</string>
+    <string name="no_secure_gmail_addr_set">Please set Secure Gmail Address first!</string>
+    
+    <!-- Auto Mode Preferences -->
+    <string name="auto_mode_name">Auto Mode Settings</string>
+    <string name="auto_mode_preference_key">auto_mode</string>
+
+	<!-- * Inspectors -->
+    <string name="inspectors_category_title">Inspectors</string>
+    <!-- ** SIM Check -->
+    <!--string name="sim_preference_category_title">SIM</string-->
+    <string name="check_sim_preference_key">sim_check</string>
+    <string name="check_sim_preference_title">Check SIM</string>
+    <string name="registered_sims_preference_key">sims</string>
+    <string name="register_sim_preference_title">Register this SIM</string>
+    <string name="can_not_get_sim_info">Can\'t get info of SIM.</string>
+    <string name="register_sim_success">SIM registed.</string>
+    <string name="register_sim_failed">SIM is not registed!</string>
+
+    <!-- * Protectors -->
+    <string name="protectors_category_title">Protectors</string>
+
+    <!-- ** SMS Notification -->
+    <string name="sms_notification_key">sms_notification</string>
+    <string name="sms_notification_title">SMS Notification</string>
+    <string name="sms_notification_summary">Send SMS Notification to Secure Phone Number</string>
+    <string name="sms_notification_content">Your phone may be lost! Please have a check.</string>
+    
+    <!-- ** Wipe SDCard -->
+    <string name="wipe_sdcard_preference_key">wipe_sdcard</string>
+    <string name="wipe_sdcard_preference_title">Wipe SDCard</string>
+    <string name="wipe_sdcard_preference_summary">Wipe all contents of SDCard</string>
+    
+    <!-- ** Factory Data Reset -->
+    <string name="factory_reset_preference_key">factory_reset</string>
+    <string name="factory_reset_preference_title">Factory Data Reset</string>
+    <string name="factory_reset_preference_summary">Warning: This will delete all Contacts, SMS messages, user apps, etc.</string>
+    <string name="device_admin_add_explanation">Factory Reset needs Device Admin for this app activated.</string>
+    
+    <!-- * Tele Mode preferences -->
+	<string name="tele_mode_name">Tele Mode Settings</string>
+	
+	<string name="tele_mode_preference_key">tele_mode</string>
+
+    <!-- ** SMS Control -->
+    <string name="sms_control_preference_key">sms_control</string>
+    <string name="sms_control_preference_title">Enable SMS Control</string>
+
+    <!-- SMS Commands -->
+    <string name="sms_cmd_prefix">antitheft-</string>
+    <string name="sms_cmd_list">SMS commands list:\n
+        antitheft-wipe-sdcard: Wipe sdcard\n
+        antitheft-factory-reset: Factory Reset\n
+        antitheft-get-location: Get location information\n
+        antitheft-get-picture: Take picture and send it to secure email\n
+        antitheft-list or any message starting with antitheft: List this SMS commands list.
+        </string>
+    <string name="sms_cmd_received">SMS command received.</string>
+    <string name="its_not_secure_phone_number">This is not the secure phone number set.</string>
+    <string name="wipe_sdcard_sms_cmd">antitheft-wipe-sdcard</string>
+    <string name="wipe_sdcard_sms_cmd_success">SDcard has been wiped.</string>
+    <string name="wipe_sdcard_sms_cmd_failed">SDcard not wiped or not completely wiped.</string>
+    <string name="factory_reset_sms_cmd">antitheft-factory-reset</string>
+    <string name="get_location_sms_cmd">antitheft-get-location</string>
+    <string name="get_picture_sms_cmd">antitheft-get-picture</string>
+    <string name="get_picture_sms_cmd_no_secure_mail_set">No secure mail set.</string>
+    <string name="picture_mail_subject">Picture from AntiTheft.Cink</string>
+    <string name="picture_mail_body">Please refer to attatchment.</string>
+    
+    <string name="gmail_account">vratry@gmail.com</string>
+    <string name="gmail_password">just a try</string>
+
+    <!-- Log records -->
+    <string name="log_record_success">success</string>
+    <string name="log_record_failed">failed</string>
+
+    <string name="registering_sim">Registering this sim ....</string>
+    <string name="registering_sim_none">can not get sim info.</string>
+    
+    <string name="enabled_auto_startup">Auto startup enabled</string>
+    <string name="disabled_auto_startup">Auto startup disabled</string>
+    
+    <string name="enabled_auto_mode">Auto mode enabled</string>
+    <string name="disabled_auto_mode">Auto mode disabled</string>
+    
+    <string name="enabled_tele_mode">Tele mode enabled</string>
+    <string name="disabled_tele_mode">Tele mode disabled</string>
+    
+    <string name="enabled_sms_control">SMS control enabled</string>
+    <string name="disabled_sms_control">SMS control disabled</string>
+
+    <string name="starting_auto_mode">Auto mode begins ....</string>
+    <string name="stopping_auto_mode">Auto mode stops.</string>
+    
+    <string name="checking_sim">Checking SIM ....</string>
+    <string name="checking_sim_none">No SIM registered.</string>
+    
+    <string name="sending_sms_notification">SMS notification sent.</string>
+
+    <string name="wiping_sdcard">Wiping sdcard ....</string>
+    
+    <string name="factory_resetting">To be factory reset ....</string>
+</resources>

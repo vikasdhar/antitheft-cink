@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/inspectors_category_title" >
+        <Preference
+            android:key="@string/registered_sims_preference_key"
+            android:title="@string/register_sim_preference_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="@string/check_sim_preference_key"
+            android:title="@string/check_sim_preference_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/protectors_category_title" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/sms_notification_key"
+            android:summary="@string/sms_notification_summary"
+            android:title="@string/sms_notification_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/wipe_sdcard_preference_key"
+            android:summary="@string/wipe_sdcard_preference_summary"
+            android:title="@string/wipe_sdcard_preference_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/factory_reset_preference_key"
+            android:summary="@string/factory_reset_preference_summary"
+            android:title="@string/factory_reset_preference_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

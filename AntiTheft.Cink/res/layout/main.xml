@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent.Desktop" >
+
+    <TextView style="@style/WrapContent.Text" />
+
+    <LinearLayout
+        style="@style/WrapContent"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView style="@style/WrapContent.Text" />
+
+            <Button
+                android:id="@+id/auto_mode"
+                style="@style/WrapContent.Button"
+                android:text="@string/auto_mode" />
+
+            <Button
+                android:id="@+id/tele_mode"
+                style="@style/WrapContent.Button"
+                android:text="@string/tele_mode" />
+
+            <TextView
+                style="@style/WrapContent.Text"
+                android:background="@color/text_bg_with_bg"
+                android:text="@string/mode" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/WrapContent"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/WrapContent.Text"
+                android:background="@color/text_bg_with_bg"
+                android:text="@string/state" />
+
+            <ToggleButton
+                android:id="@+id/toggle_auto_mode"
+                style="@style/WrapContent.Button" />
+
+            <ToggleButton
+                android:id="@+id/toggle_tele_mode"
+                style="@style/WrapContent.Button" />
+
+            <TextView style="@style/WrapContent.Text" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

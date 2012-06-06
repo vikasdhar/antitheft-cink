@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Emulate background capturing -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/capture_preview_area"
+    android:layout_width="0dp"
+    android:layout_height="0dp" >
+
+</FrameLayout>
